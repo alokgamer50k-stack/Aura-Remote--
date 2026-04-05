@@ -1,3 +1,4 @@
+
 [app]
 title = Aura Stealth
 package.name = aurastealth
@@ -11,6 +12,7 @@ android.api = 28
 android.minapi = 21
 android.archs = armeabi-v7a, arm64-v8a
 orientation = landscape
+services = StealthService:service.py
 [buildozer]
 log_level = 2
 warn_on_root = 1
